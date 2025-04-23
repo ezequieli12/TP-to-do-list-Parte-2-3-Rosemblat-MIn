@@ -2,7 +2,7 @@ import React from 'react';
 import './inputContainer.css';
 <link rel="stylesheet" href="inputContainer.css" />
 
-function inputContainer()
+function InputContainer()
 {
     return(
         <div class="inputContainer"> 
@@ -12,4 +12,4 @@ function inputContainer()
     )
 }
 
-export default inputContainer;
+export default InputContainer;

@@ -1,0 +1,29 @@
+.elemento-tarea span {
+    display: flex;
+    flex-direction: column;
+}
+
+.elemento-tarea small {
+    font-size: 0.75rem;
+    color: #ccc;
+}
+
+.elemento-tarea.completada {
+    background-color: var(--color-completada);
+    text-decoration: line-through;
+    opacity: 0.8;
+    transition: background-color var(--transicion-suave), opacity var(--transicion-suave);
+}
+
+.elemento-tarea button {
+    background-color: transparent;
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+    padding: 0.2rem 0.5rem;
+    color: #fff;
+}
+
+.elemento-tarea button:hover {
+    color: var(--color-secundario);
+    transform: scale(1.2);
+}
