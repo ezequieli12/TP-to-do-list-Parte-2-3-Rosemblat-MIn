@@ -1,0 +1,20 @@
+.input-container {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+#entradaTarea::placeholder {
+    color: #aaa;
+}
+
+#entradaTarea {
+    flex: 1;
+    padding: 0.8rem;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    background-color: #3b3b52;
+    color: var(--color-texto);
+}
+
