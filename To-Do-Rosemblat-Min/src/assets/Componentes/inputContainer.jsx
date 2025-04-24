@@ -5,7 +5,7 @@ import './inputContainer.css';
 function InputContainer()
 {
     return(
-        <div class="inputContainer"> 
+        <div className="inputContainer"> 
             <input type="text" id="entradaTarea" placeholder="Agregar una nueva tarea"/>
             <button id="botonAgregarTarea">Agregar</button>
         </div>

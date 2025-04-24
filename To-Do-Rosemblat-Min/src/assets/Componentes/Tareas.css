@@ -3,16 +3,21 @@
     flex-direction: column;
 }
 
+.elemento-tarea {
+    background-color: #3b3b52;
+    border: 1px solid var(--color-borde);
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 0.75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color var(--transicion-suave);
+}
+
 .elemento-tarea small {
     font-size: 0.75rem;
     color: #ccc;
-}
-
-.elemento-tarea.completada {
-    background-color: var(--color-completada);
-    text-decoration: line-through;
-    opacity: 0.8;
-    transition: background-color var(--transicion-suave), opacity var(--transicion-suave);
 }
 
 .elemento-tarea button {
@@ -27,3 +32,30 @@
     color: var(--color-secundario);
     transform: scale(1.2);
 }
+
+.elemento-tareaCompletada {
+    border: 1px solid var(--color-borde);
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 0.75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-completada);
+    text-decoration: line-through;
+    opacity: 0.8;
+    transition: background-color var(--transicion-suave), opacity var(--transicion-suave);
+}
+
+.elemento-tareaCompletada small {
+    font-size: 0.75rem;
+    color: #ccc;
+}
+
+.elemento-tareaCompletada button {
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+    padding: 0.2rem 0.5rem;
+    color: #fff;
+}
+

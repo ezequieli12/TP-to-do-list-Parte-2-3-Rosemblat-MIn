@@ -1,0 +1,7 @@
+#tareaMasRapida {
+    margin-top: 1rem;
+    font-style: italic;
+    color: var(--color-secundario);
+    text-align: center;
+    animation: parpadeo 2s infinite;
+}
