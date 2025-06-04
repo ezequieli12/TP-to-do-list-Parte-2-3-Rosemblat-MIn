@@ -15,13 +15,11 @@ function Tarea({ id, nombre, fechaCreacion, completada, onToggleCompletada, onEl
       <p className="tarea-estado">Estado: {completada ? 'Completa' : 'Pendiente'}</p>
       <div className="tarea-botones">
         <button 
-          className="tarea-boton-completar"
           onClick={() => onToggleCompletada(id)}
         >
           {completada ? 'Marcar como Pendiente' : 'Marcar como Completa'}
         </button>
         <button 
-          className="tarea-boton-eliminar"
           onClick={() => onEliminarTarea(id)}
         >
           Eliminar ×

@@ -22,7 +22,7 @@ function FormularioTarea({ onAgregarTarea }) {
           type='text'
           value={nombreTarea}
           onChange={(e) => setNombreTarea(e.target.value)}
-        />
+        /> 
         <button className="formulario-boton" type="submit">Agregar Tarea</button>
       </form>
     </div>

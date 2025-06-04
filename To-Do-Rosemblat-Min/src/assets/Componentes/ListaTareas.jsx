@@ -1,6 +1,7 @@
 import React from 'react';
 import Tarea from './Tareas';
 import Estadistica from './tareaMasRapida';
+import './ListaTareas.css';
 
 function ListadoTareas({ tareas, onToggleCompletada, onEliminarTarea, tareaMasRapida }) {
   return (
@@ -16,7 +17,7 @@ function ListadoTareas({ tareas, onToggleCompletada, onEliminarTarea, tareaMasRa
           onEliminarTarea={onEliminarTarea}
         />
       ))}
-      {tareaMasRapida && <Estadistica nombre={tareaMasRapida.nombre} duracion={tareaMasRapida.duracion} />}
+      {tareaMasRapida && <tareaMasRapida nombre={tareaMasRapida.nombre} duracion={tareaMasRapida.duracion} />}
     </div>
   );
 }
