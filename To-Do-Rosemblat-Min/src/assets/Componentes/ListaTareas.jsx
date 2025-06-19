@@ -1,7 +1,7 @@
 import React from 'react';
 import Tarea from './Tareas';
 import Estadistica from './tareaMasRapida';
-import './ListaTareas.css';
+
 
 function ListadoTareas({ tareas, onToggleCompletada, onEliminarTarea, tareaMasRapida }) {
   return (
